@@ -1,0 +1,222 @@
+body {
+
+  background-color: #ECECEC;
+  font-family: Inter,sans-serif;
+  color: #000;
+  height: 100%;
+  margin: 0 auto;
+  font-weight: 400;
+  width: 100%;
+}
+div{
+	display: block;
+}
+/* NAVBAR*/
+.menu {  
+  position: sticky;
+  top: 0;  
+  background-color: #fff;
+  padding:40px 0px 10px 0px;
+  color:white;
+  margin: 0 auto;
+  height: 92px;
+  overflow: hidden;
+ }
+ .menu img{
+  float: left;
+  padding-left: 40px;
+  cursor: pointer;
+ }
+ .menu a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+ }
+ .menu a:hover{
+ 	background-color: #E9E9E9;
+ }
+.menu-log {
+  right: auto;
+   float: right;
+}
+.menu-log button{
+	width: auto;
+	height: auto;
+	border-radius: 25px 25px 25px 25px;
+	font-size: 15px;
+	background-color: #00baf2;
+	padding: 2px 20px 2px 20px;
+	color: #fff;
+	text-align: center;
+	border: transparent;
+}
+.menu-log button:hover{
+	background-color: navy;
+}
+/* KYC */
+.kyc{
+	height: auto;
+	font-size: 15px;
+	font-weight: 600;
+}
+/* Section1 */
+.section1{
+		padding: 128px 150px 120px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    background-color: #fff;
+}
+.section1 .box_logos {
+	width: 80px;
+  box-shadow: 0 5px 20px rgb(0 41 112 / 10%);
+  border-radius: 16px;
+}
+.section1 .section_img{
+	  width: 528px;
+    position: absolute;
+    top: 250px;
+    right: 0;
+}
+.section1 button{
+	padding: 0 24px;
+  height: 44px;
+  font-size: 15px;
+  border-radius: 25px 25px 25px 25px;
+  background-color: black;
+	color: #fff;
+}
+.section1 button:hover{
+	background-color: #fff;
+	color: black;
+  transition: 0.5s;
+}
+.section1 article p{
+	padding-top: 10px;
+  width: 475px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+/* Section2 and similar parts of section3 */
+.section2{
+	padding: 60px 60px 60px;
+	width: auto;
+  height: auto;
+  background-color: #00baf2;
+}
+.section2 h1{
+	font-size: 36px;
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.s_container{
+	display: flex;
+}
+.s_block{
+	display: flex;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+.s_card{
+    width: 140px;
+    margin-right: 32px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 16px 11px 16px 16px;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 25px;
+    flex-direction: column;
+}
+.s_card:hover{
+	background-color: #00ACE0;
+}
+.s_card img{
+	  width: 64px;
+    margin-bottom: 17px;
+    background: #fff;
+    border-radius: 100%;
+}
+.s_card_content{
+    cursor: pointer;
+    position: relative;
+    min-height: 45px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 22px;
+}
+.s_card_content_body{
+	margin-right: 11px;
+}
+
+/* Section3 */
+.section3{
+	padding: 60px 60px 60px;
+	width: auto;
+  height: auto;
+  background-color: #0f4a8a;
+}
+.section3 h1{
+	font-size: 36px;
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+/* Section4 almost same as section1*/
+.section4{
+    padding: 128px 150px 120px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    background-color: #fff;
+}
+.section4 .ins_logo{
+  width: 212px;
+  height: 70px;
+  padding-bottom: 12px;
+}
+.section4 .s4_img{
+  float: right;
+  width: 452px;    
+}
+.section4 button{
+  padding: 0 24px;
+  height: 44px;
+  font-size: 15px;
+  border-radius: 25px 25px 25px 25px;
+  background-color: navy;
+  color: #fff;
+}
+.section4 button:hover{
+  background-color: #00baf2;
+  color: #fff;
+  transition: 0.5s;
+}
+.section4 article p{
+  padding-top: 10px;
+  width: 475px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.lightbluestrip{
+  background-color: #00baf2;
+  height: 10px;
+}
+.navybluestrip{
+  background-color: navy;
+  height: 10px;
+}
