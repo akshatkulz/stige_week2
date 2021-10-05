@@ -188,7 +188,7 @@ div{
 }
 .section4 .s4_img{
   float: right;
-  width: 452px;    
+  width: 452px;
 }
 .section4 button{
   padding: 0 24px;
@@ -212,6 +212,7 @@ div{
   line-height: 30px;
 }
 
+/* footers*/
 .lightbluestrip{
   background-color: #00baf2;
   height: 10px;
@@ -219,4 +220,22 @@ div{
 .navybluestrip{
   background-color: navy;
   height: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu{
+    height: 150px;
+    transition: 0.5s;
+  }
+  .menu a:hover{
+    opacity: 0.4;
+  }
+  .menu-log{
+    transform: translateX(-120px) translateY(50px);
+  }
+ 
+  .s_card{
+    padding: 0;
+  }
+
 }
